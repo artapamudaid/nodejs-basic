@@ -10,10 +10,20 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "dependencies": {
+    "dotenv": "^17.2.4",
     "express": "^5.2.1",
     "mysql2": "^3.16.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artapamudaid/nodejs-basic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/artapamudaid/nodejs-basic/issues"
+  },
+  "homepage": "https://github.com/artapamudaid/nodejs-basic#readme"
 }
